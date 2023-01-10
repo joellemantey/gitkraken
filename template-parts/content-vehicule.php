@@ -33,6 +33,7 @@
 <div>prix : <?php the_field('prix'); ?></div>
 <div>marque : <?php the_field('marque'); ?></div>
 <div>année de sortie : <?php the_field('annee_modele'); ?></div>
+<div>année de sortie : <?php the_field('annee_modele'); ?></div>
 	<div class="entry-content">
 		<?php
 		the_content(
