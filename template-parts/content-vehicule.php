@@ -30,7 +30,7 @@
 	</header><!-- .entry-header -->
 
 	<?php concession_post_thumbnail(); ?>
-
+<div>prix : <?php the_field('prix'); ?></div>
 	<div class="entry-content">
 		<?php
 		the_content(
